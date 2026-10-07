@@ -31,3 +31,10 @@ def pressure(h):
     R  = 287.05
     L  = 0.0065
     return p0 * (T / T0) ** (g / (L * R))
+
+def speed_of_sound(h):
+    """Returns the speed of sound in m/s at altitude h in metres."""
+    gamma = 1.4
+    R     = 287.05
+    T     = temperature(h)
+    return (gamma * R * T) ** 0.5
