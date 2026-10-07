@@ -14,3 +14,13 @@ print("\nAt 10000 m:")
 print("Density:", density(10000), "kg/m^3")
 print("Temperature:", temperature(10000), "K")
 print("Pressure:", pressure(10000), "Pa")
+
+print("\nAt 12000 m:")
+print("Density:", density(12000), "kg/m^3")
+print("Temperature:", temperature(12000), "K")
+print("Pressure:", pressure(12000), "Pa")
+
+print("\nAt 20000 m:")
+print("Density:", density(20000), "kg/m^3")
+print("Temperature:", temperature(20000), "K")
+print("Pressure:", pressure(20000), "Pa")
